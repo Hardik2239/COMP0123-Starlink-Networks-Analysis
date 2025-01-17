@@ -4,9 +4,6 @@ This project focuses on analysing the Starlink network and their connections to 
 
 ## Project Structure
 - **`analysis.ipynb`**: Jupyter Notebook containing the analysis of precreated networks. Simply execute the cells to view the results.
-- **`data/`**: Directory containing the input data files:
-  - `sup-gp.txt`: TLE data for satellites.
-  - `cities.csv`: City data with names, countries, and coordinates.
 - **`networks/`**: Directory containing all the precreated networks:
   - **`bipartite.graphml`**: Bipartite graph connecting satellites to cities.
   - **`satellite.graphml`**: Satellite-only network derived from the bipartite graph.
@@ -32,11 +29,11 @@ The networks have already been precreated and saved in the networks directory.
 ## Dependencies
 
 Ensure you have the following Python packages installed:
-- `pandas`
 - `networkx`
 - `numpy`
-- `math`
-- `sgp4`
-- `datetime`
+- `seaborn`
 - `matplotlib`
+- `scipy`
+- `powerlaw`
 - `basemap`
+- `geopy`
